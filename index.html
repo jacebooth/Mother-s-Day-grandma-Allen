@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Happy Mother's Day!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient( #00008B,#FFD700);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+            background-color: rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .heart {
+            font-size: 5em;
+            color: gold;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .footer {
+            padding: 20px;
+            font-size: 1.2em;
+            background-color: rgba(0,0,0,0.2);
+        }
+        .button {
+            background-color: #00008B;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #fff;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="heart">❤️</div>
+        <h1>Happy Mother's Day!</h1>
+        <p>To the most wonderful grandma, with all my love!</p>
+    </header>
+    <section>
+        <p>May your day be filled with love, happiness, and all your favorite things.</p>
+        <button class="button" onclick="alert('Happy Mother\'s Day!')">love you</button>
+    </section>
+    <div class="footer">
+        <p>With love, your grandson</p>
+    </div>
+</body>
+</html>
